@@ -21,19 +21,17 @@ const App = () => {
 
   }
   const deleteItem = (id) =>{ 
- 
-    setaddItem((oldData) => {
+    setaddItem((oldData) => 
       oldData.filter((currData,indx)=>{
-        return indx !== id;
-        
+        return indx !== id; 
       })
-    } 
     )
     alert ('NOTE DELETED!')
   }
   return (
     <> 
         <Header/>
+
         <CreateNote passnote= {addNote}/>
 
            { addItem.map((val, index) => {

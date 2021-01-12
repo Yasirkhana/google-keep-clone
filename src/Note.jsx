@@ -12,7 +12,7 @@ const Note = (props) => {
     <>  
         <h1>{props.title} </h1> <br/>
         <p> {props.content}</p>
-        <button ClassName = 'deleteBtn' onClick = {deleteItem}>
+        <button  onClick = {deleteItem}>
             <BackspaceTwoToneIcon/> 
         </button>
      </>

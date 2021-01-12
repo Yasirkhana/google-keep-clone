@@ -8,7 +8,7 @@ const Header = () =>{
     <> 
         <div className = 'Header'>
         {/* <!-- Image and text --> */}
-            <nav class="navbar navbar-light bg-light ">
+            <nav class="navbar Header">
               <a class="navbar-brand" href="#">
                 <img src="https://img.icons8.com/ios/452/google-keep.png"
                  width="40" height="40" class="d-inline-block align-top" alt=""/>
