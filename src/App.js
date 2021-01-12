@@ -11,6 +11,7 @@ function App() {
 
   const addNote = (Note) =>{ 
     // alert ('I M CLICKED')
+
   }
   return (
     <> 
