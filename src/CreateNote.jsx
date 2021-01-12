@@ -16,6 +16,8 @@ const inputEvent = (event) =>{
 
     const [name ,value] = event.target;
 
+    console.log(name);
+    console.log(value);
 
     setNote((preData)=>{
 
