@@ -31,7 +31,7 @@ const App = () => {
   return (
     <> 
         <Header/>
-
+      <div className = 'containerxx'>
         <CreateNote passnote= {addNote}/>
 
            { addItem.map((val, index) => {
@@ -44,8 +44,10 @@ const App = () => {
                       onDelete= {deleteItem}
           />);
         })}
-       <hr/>
+     
+       
         <Footer />
+        </div>
     </>
 
     );

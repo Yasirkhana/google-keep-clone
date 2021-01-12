@@ -8,10 +8,9 @@ const Footer = () => {
     return (
     <>  
     <div className = 'Footer'>
-     <p>CopyRight © {year}</p>
+     <p class='text-center mt-5 '>CopyRight © {year} YasirKhana.</p>
     </div>
      </>
-
     );
 }
 
